@@ -1,0 +1,70 @@
+header.global{
+	padding: 5px 0;
+    border-bottom: 3px solid #e5240e;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.82);
+}
+header.global figure{
+	margin-bottom: 0;
+}
+
+header.global ul.nav{
+    padding: 20px 0;
+    display: block;
+}
+header.global ul.nav li{
+    display: inline-block;
+}
+header.global ul.nav li a.nav-link{
+    padding: 0 18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #53555f;
+    text-transform: uppercase;
+}
+header.global ul.nav li a.nav-link .dropdown button{
+	background: none;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    color: #53555f;
+    text-transform: uppercase;
+}
+header.global ul.nav li a.nav-link .dropdown button:active,
+header.global ul.nav li a.nav-link .dropdown button:focus{
+	border:none;
+	outline: none;
+}
+header.global .location{    
+    padding: 20px 0;
+    text-align: center;
+}
+header.global .location a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #53555f;
+    text-transform: uppercase;
+}
+
+
+header.global ul.nav li a.nav-link .dropdown-menu{
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+}
+header.global ul.nav li a.nav-link .dropdown-menu a.dropdown-item{
+    padding: 12px 16px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #53555f;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.4);
+}
+header.global ul.nav li a.nav-link .dropdown-menu a.dropdown-item:last-child{
+    border-bottom-color: transparent;
+}
+header.global ul.nav li a.nav-link .dropdown-menu a.dropdown-item:hover{
+    background-color: #eee;
+}

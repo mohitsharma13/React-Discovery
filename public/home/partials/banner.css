@@ -1,0 +1,30 @@
+.bannerSection {
+    position: relative;
+    height: 400px;
+}
+.bannerSection figure{
+	height: inherit;
+}
+.bannerSection img {
+    width: 100%;
+    object-fit: cover;
+    height: inherit;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(130,111,104,0.6);
+}
+.bannerSection .content {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
