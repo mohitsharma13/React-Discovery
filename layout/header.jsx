@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Nav from './partials/header-nav.jsx';
 import '../public/layout/header.css';
 
@@ -10,7 +11,9 @@ class Header extends React.Component {
 					<div class="row">
 						<div class="col-md-2">
 							<figure>
-	                        	<img class="img-responsive" src="https://cdn1.droom.in/imgusr/web/droomDiscovery/logo/discovery-logo-beta.png" alt="Droom Logo Small" />
+	                        	<Link to="/">
+	                        		<img class="img-responsive" src="https://cdn1.droom.in/imgusr/web/droomDiscovery/logo/discovery-logo-beta.png" alt="Droom Logo Small" />
+	                        	</Link>
 	                        </figure>
 						</div>
 						<div class="col-md-8">
@@ -18,9 +21,9 @@ class Header extends React.Component {
 						</div>
 						<div class="col-md-2">
 							<div class="location">
-								<a href="">
+								<Link to="/login">
 									Location
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>
